@@ -6,7 +6,7 @@ import os
 image1_path = 'shape1.png'
 image2_path = 'shape2.png'
 
-morph_quality = 50
+morph_quality = 100
 
 directory = "out/{}-{}/".format(image1_path[:image1_path.index('.')], image2_path[:image2_path.index('.')])
 if not os.path.exists(directory):
