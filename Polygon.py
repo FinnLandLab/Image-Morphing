@@ -51,7 +51,7 @@ class Polygon:
         extras = len(pixels) - amt * len(self.pixels)
 
         for px in self.pixels:
-            if extras >= 0:
+            if extras > 0:
                 pxs = [px] * (amt + 1)
                 extras -= 1
             else:
